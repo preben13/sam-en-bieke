@@ -10,3 +10,8 @@ title = "Sam en Bieke"
     url  = "/trouwdag"
     weight = 1
 
+[[menu.main]]
+    name = "Kan jij er bij zijn?"
+    url  = "/bevestigen"
+    weight = 2
+

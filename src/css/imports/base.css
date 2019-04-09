@@ -836,3 +836,32 @@ video {
 .day-item .day-item-content .title{
   font-size: 28px;
 }
+
+
+.content .input-wrapper{
+  display: flex;
+  align-items:center;
+  margin-bottom:.5rem;
+}
+.content .input-wrapper input{
+  width: 70%;
+  margin-bottom: 0;
+}
+.content .input-wrapper.checkbox input{
+  width:auto;
+}
+.content .input-wrapper label{
+  min-width: 8rem;
+  font-weight: 600;
+}
+.content .input-wrapper.checkbox label{
+  font-weight: normal;
+}
+.content button.submit-button{
+  width: 10rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.content form{
+  margin-top:2rem;
+}
