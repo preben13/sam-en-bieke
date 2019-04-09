@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
       <a href="{{ .Site.BaseURL }}">
         <h1>Sam
@@ -12,7 +12,8 @@
           Bieke</h1></a>
       <p class="lead">{{ .Site.Params.description | markdownify }}</p>
     </div>
-
+  </div>
+  <div class="container sidebar-sticky">
     <ul class="sidebar-nav">
       <li><a href="/">Startpagina</a> </li>
       {{ range .Site.Menus.main }}

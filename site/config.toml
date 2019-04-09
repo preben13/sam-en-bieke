@@ -6,13 +6,18 @@ title = "Sam en Bieke"
   description = "negenentwintig mei tweeduizendnegentien"
 
 [[menu.main]]
+    name = "Ons verhaal"
+    url  = "/onsverhaal"
+    weight = 1
+
+[[menu.main]]
     name = "Trouwdag"
     url  = "/trouwdag"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     name = "Kan jij er bij zijn?"
     url  = "/bevestigen"
-    weight = 2
+    weight = 3
 
 
