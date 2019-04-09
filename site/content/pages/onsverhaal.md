@@ -35,8 +35,8 @@ Huizenjacht. Huisje vinden, en verbouwen. Wat we allemaal zelf hebben gedaan... 
 onvoorstelbaar.
 </p>
 <p>
-Free en Ferre, twee schatten van kinderen waarvan we soms wel eens denken: ze lijken soms harder
-op ons dan we eigenlijk zouden willen.
+Free en Ferre. Een droom die uitkwam! Twee schatten van kinderen waarvan we soms wel eens
+zeggen: ze lijken harder op ons dan we eigenlijk wel denken.
 </p>
 <p>
 En toen kwam onze eerste “grote” reis samen. Naar het prachtige eiland Malta. Wat hebben we
