@@ -669,6 +669,12 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  .sidebar{
+    padding: 1rem;
+  }
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -683,9 +689,9 @@ html {
 .sidebar-about {
   h1 {
     color: #6c3015;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0px 0;
     font-family: 'Dosis', sans-serif;
-    font-size: 4.25rem;
+    font-size: 2.7rem;
     transition: color .2s ease;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -697,18 +703,40 @@ html {
     font-size: .8em;
   }
   svg{
-    height:60px;
-    width:100px;
-    min-height: 50px;
+    height:30px;
+    width:30px;
+    min-height: 30px;
     margin-bottom: 0;
     fill:#6c3015;
     margin-top: 0.5rem;
+    margin-left:.5rem;
+    margin-right:.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-about {
+    h1{
+      justify-content: center;
+    }
   }
 }
 
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .sidebar-nav{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sidebar-nav li{
+    margin: 0 1rem;
+  }
 }
 
 .sidebar-nav-item {
@@ -798,6 +826,12 @@ video {
   z-index: -2;
 }
 
+@media (max-width: 48em) {
+  .cover-picture{
+    top:150px;
+  }
+}
+
 .cover-picture-overlay{
   object-fit: cover;
   width: 100vw;
@@ -861,7 +895,58 @@ video {
   width: 10rem;
   margin-left: 8rem;
   margin-top: 2rem;
+  background:#6c3015;
 }
+.content button.submit-button:hover{
+  background:#a74a20;
+}
+
 .content form{
   margin-top:2rem;
+}
+
+.homepage-content{
+  position: absolute;
+  bottom: 2rem;
+  max-width: 23rem;
+  color:white;
+}
+
+.homepage-btn{
+  display: block;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: white;
+  background: #6c3015;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background .2s ease;
+  text-align: center;
+}
+.homepage-btn:hover{
+  background:#a74a20;
+}
+
+img.tent{
+  min-height: auto;
+  height: auto;
+  width: 100%;
+}
+
+.routelink{
+  color:#6c3015;
+  text-decoration: underline;
+  margin-bottom: 4rem;
+}
+
+.routelink:hover{
+  color:#a74a20;
+  text-decoration: none;
+
 }

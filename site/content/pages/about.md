@@ -4,6 +4,14 @@ title = "Trouwdag"
 url = "/trouwdag"
 +++
 
+## Locatie
+
+---
+<img src="/tent-landscape.jpg" class="tent" />
+<p>Feesttent <br>HOJE De Bergen <br> Zemstseweg 43, HOMBEEK</p>
+<a href="https://goo.gl/maps/84RxBPiWHLS2" class="routelink" target="_blank">Google maps</a>
+
+
 ## Onze trouwdag
 
 ---
@@ -158,8 +166,3 @@ url = "/trouwdag"
     </div>
 </div>
 
-
-
-
-Tot dan,
-# Sam en Bieke

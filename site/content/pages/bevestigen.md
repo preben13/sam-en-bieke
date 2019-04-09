@@ -7,7 +7,10 @@ url = "/bevestigen"
 ## Kan jij er bij zijn?
 Laat hieronder weten of je aanwezig kan zijn op ons trouwfeest.
 
-<form name="contact" action="https://docs.google.com/forms/d/e/1FAIpQLSdAFgQITYZKezWqIlQcBp6ZNbSxWhPGoRNdKEHo69oVqula-g/formResponse">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='/bevestigd';}"></iframe>
+<form name="contact" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdAFgQITYZKezWqIlQcBp6ZNbSxWhPGoRNdKEHo69oVqula-g/formResponse">
 <div class="input-wrapper">
 <label>Naam</label>
 <input type="naam" name="entry.487397340" placeholder="Naam" required>

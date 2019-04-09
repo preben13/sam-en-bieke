@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Sam en Bieke"
 
 [params]
-  description = "Welkom op onze website, hier kan je meer informatie vinden over ons trouwfeest"
+  description = "negenentwintig mei tweeduizendnegentien"
 
 [[menu.main]]
     name = "Trouwdag"
@@ -14,4 +14,5 @@ title = "Sam en Bieke"
     name = "Kan jij er bij zijn?"
     url  = "/bevestigen"
     weight = 2
+
 
