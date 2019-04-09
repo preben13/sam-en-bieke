@@ -99,7 +99,7 @@ abbr {
 }
 
 code, pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: 'Dosis', sans-serif;
 }
 
 code {
@@ -283,7 +283,7 @@ tbody tr:nth-child(odd) {
 .pagination {
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -636,7 +636,7 @@ a.pagination-item:hover {
 }
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 @media (min-width: 48em) {
@@ -654,14 +654,17 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #202020;
+  color: #515151;
+  background-color: #f5c86b;
   a {
-    color: #fff;
+    color: #6c3015;
     transition: color .2s ease;
     &:hover, &:focus, &:hover h1, &:focus h1 {
-      color: #ff7660;
+      color: #a74a20;
       text-decoration: none;
+      svg{
+        fill: #a74a20;
+      }
     }
   }
 }
@@ -679,15 +682,27 @@ html {
 
 .sidebar-about {
   h1 {
-    color: #fff;
-    margin: 0 0 .35em 0;
-    font-family: "Rock Salt", cursive;
-    font-size: 3.25rem;
+    color: #6c3015;
+    margin: 0 0 1rem 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 4.25rem;
     transition: color .2s ease;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1;
   }
   .lead {
     font-size: .8em;
+  }
+  svg{
+    height:60px;
+    width:100px;
+    min-height: 50px;
+    margin-bottom: 0;
+    fill:#6c3015;
+    margin-top: 0.5rem;
   }
 }
 
@@ -771,4 +786,53 @@ video {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.cover-picture{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.cover-picture-overlay{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background:
+    /* top, transparent red, faked with gradient */
+          linear-gradient(
+                  rgba(108, 48, 21, 0.45),
+                  rgba(108, 48, 21, 0.45)
+          );
+  background-size: cover;
+}
+
+
+.day-wrapper{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.day-item{
+  display: flex;
+  align-items: center;
+}
+
+.day-item:last-of-type{
+  margin-bottom: 2rem;
+}
+.day-item .icon{
+  width: 100px;
+  height: 100px;
+}
+.day-item .day-item-content .title{
+  font-size: 28px;
 }

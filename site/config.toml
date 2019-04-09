@@ -1,15 +1,12 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Tasty Licks"
+title = "Sam en Bieke"
 
 [params]
-  description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  description = "Welkom op onze website, hier kan je meer informatie vinden over ons trouwfeest"
 
 [[menu.main]]
-    name = "About"
-    url  = "/about"
+    name = "Trouwdag"
+    url  = "/trouwdag"
     weight = 1
-[[menu.main]]
-    name = "Food"
-    url  = "/food"
-    weight = 2
+
