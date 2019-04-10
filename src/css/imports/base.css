@@ -733,9 +733,12 @@ html {
   .sidebar-nav{
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:0;
   }
   .sidebar-nav li{
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
+    width: 35%;
   }
 }
 
@@ -768,6 +771,13 @@ a.sidebar-nav-item {
 
   small {
     text-align: center;
+  }
+}
+
+@media (max-width: 48em) {
+  .content{
+    padding-top:1rem;
+    padding-bottom:1rem;
   }
 }
 
@@ -828,7 +838,7 @@ video {
 
 @media (max-width: 48em) {
   .cover-picture{
-    top:150px;
+    top:190px;
   }
 }
 
@@ -932,6 +942,13 @@ video {
 .homepage-btn:hover{
   background:#a74a20;
 }
+
+@media (max-width: 48em) {
+  .homepage-btn{
+    width: 96%;
+  }
+}
+
 
 img.tent{
   min-height: auto;
