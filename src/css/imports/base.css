@@ -206,6 +206,10 @@ tbody tr:nth-child(odd) {
   margin-right: auto;
 }
 
+.container.full{
+  max-width: 100%;
+}
+
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -920,6 +924,35 @@ video {
   bottom: 2rem;
   max-width: 23rem;
   color:white;
+}
+
+.homepage-login{
+  color: #ffffff;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+}
+
+.homepage-login .login-sb,
+.homepage-login p{
+  margin:0;
+}
+
+.homepage-btn.login{
+  margin-top:1rem;
+}
+
+.homepage-login .login-sb.error{
+  border: 1px solid red;
+}
+
+.error{
+  color:red;
+  display: none;
+}
+.error.visible{
+  display:block;
 }
 
 .homepage-btn{
